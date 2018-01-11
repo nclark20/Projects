@@ -1,0 +1,295 @@
+
+<!-- saved from url=(0030)http://connect4bynick.gweb.io/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="shortcut icon" href="logo.png">
+<title>Connect 4</title>
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+	<style type="text/css"></style></head><body style="font-family: Courier New, Consolas, monospace; background-image: url(http://subtlepatterns.com/patterns/stardust.png);">
+    <center>
+	<p id="header" style="margin-bottom: 0px;"><b>CONNECT 4</b> </p>
+	<p>copyright 2014 @ nick clark</p>
+	<p id="inst">INSTRUCTIONS: Player 1 is whoever goes first, their squares will be black.<br> Player 2 will have red squares. The goal is to get four circles of the same color in a row.<br> Click inside of the square you would like to fill, be careful there are no re-do's.<br> Have fun!</p>
+
+	<button onclick="checkSquares()">Check</button>
+    <script src="games.js"></script>
+	<div id="winner"></div>
+	    <table bgcolor="grey" style="width:10px;border:3px solid yellow" border="3">
+        <tbody><tr>
+            <td>
+                <div id="board">
+                    <div id="loc00" onclick="changeColor(0)">
+                    </div>
+            </div></td>
+            <td>
+                <div id="loc01" onclick="changeColor(1)">
+                </div>
+            </td>
+            <td>
+                <div id="loc02" onclick="changeColor(2)">
+                </div>
+            </td>
+            <td>
+                <div id="loc03" onclick="changeColor(3)">
+                </div>
+            </td>
+            <td>
+                <div id="loc04" onclick="changeColor(4)">
+                </div>
+            </td>
+            <td>
+                <div id="loc05" onclick="changeColor(5)">
+                </div>
+            </td>
+            <td>
+                <div id="loc06" onclick="changeColor(6)">
+                </div>
+            </td>
+            <td>
+                <div id="loc07" onclick="changeColor(7)">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="loc10" onclick="changeColor(10)">
+                </div>
+            </td>
+            <td>
+                <div id="loc11" onclick="changeColor(11)">
+                </div>
+            </td>
+            <td>
+                <div id="loc12" onclick="changeColor(12)">
+                </div>
+            </td>
+            <td>
+                <div id="loc13" onclick="changeColor(13)">
+                </div>
+            </td>
+            <td>
+                <div id="loc14" onclick="changeColor(14)">
+                </div>
+            </td>
+            <td>
+                <div id="loc15" onclick="changeColor(15)">
+                </div>
+            </td>
+            <td>
+                <div id="loc16" onclick="changeColor(16)">
+                </div>
+            </td>
+            <td>
+                <div id="loc17" onclick="changeColor(17)">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="loc20" onclick="changeColor(20)">
+                </div>
+            </td>
+            <td>
+                <div id="loc21" onclick="changeColor(21)">
+                </div>
+            </td>
+            <td>
+                <div id="loc22" onclick="changeColor(22)">
+                </div>
+            </td>
+            <td>
+                <div id="loc23" onclick="changeColor(23)">
+                </div>
+            </td>
+            <td>
+                <div id="loc24" onclick="changeColor(24)">
+                </div>
+            </td>
+            <td>
+                <div id="loc25" onclick="changeColor(25)">
+                </div>
+            </td>
+            <td>
+                <div id="loc26" onclick="changeColor(26)">
+                </div>
+            </td>
+            <td>
+                <div id="loc27" onclick="changeColor(27)">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="loc30" onclick="changeColor(30)">
+                </div>
+            </td>
+            <td>
+                <div id="loc31" onclick="changeColor(31)">
+                </div>
+            </td>
+            <td>
+                <div id="loc32" onclick="changeColor(32)">
+                </div>
+            </td>
+            <td>
+                <div id="loc33" onclick="changeColor(33)">
+                </div>
+            </td>
+            <td>
+                <div id="loc34" onclick="changeColor(34)">
+                </div>
+            </td>
+            <td>
+                <div id="loc35" onclick="changeColor(35)">
+                </div>
+            </td>
+            <td>
+                <div id="loc36" onclick="changeColor(36)">
+                </div>
+            </td>
+            <td>
+                <div id="loc37" onclick="changeColor(37)">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="loc40" onclick="changeColor(40)">
+                </div>
+            </td>
+            <td>
+                <div id="loc41" onclick="changeColor(41)">
+                </div>
+            </td>
+            <td>
+                <div id="loc42" onclick="changeColor(42)">
+                </div>
+            </td>
+            <td>
+                <div id="loc43" onclick="changeColor(43)">
+                </div>
+            </td>
+            <td>
+                <div id="loc44" onclick="changeColor(44)">
+                </div>
+            </td>
+            <td>
+                <div id="loc45" onclick="changeColor(45)">
+                </div>
+            </td>
+            <td>
+                <div id="loc46" onclick="changeColor(46)">
+                </div>
+            </td>
+            <td>
+                <div id="loc47" onclick="changeColor(47)">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="loc50" onclick="changeColor(50)">
+                </div>
+            </td>
+            <td>
+                <div id="loc51" onclick="changeColor(51)">
+                </div>
+            </td>
+            <td>
+                <div id="loc52" onclick="changeColor(52)">
+                </div>
+            </td>
+            <td>
+                <div id="loc53" onclick="changeColor(53)">
+                </div>
+            </td>
+            <td>
+                <div id="loc54" onclick="changeColor(54)">
+                </div>
+            </td>
+            <td>
+                <div id="loc55" onclick="changeColor(55)">
+                </div>
+            </td>
+            <td>
+                <div id="loc56" onclick="changeColor(56)">
+                </div>
+            </td>
+            <td>
+                <div id="loc57" onclick="changeColor(57)">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="loc60" onclick="changeColor(60)">
+                </div>
+            </td>
+            <td>
+                <div id="loc61" onclick="changeColor(61)">
+                </div>
+            </td>
+            <td>
+                <div id="loc62" onclick="changeColor(62)">
+                </div>
+            </td>
+            <td>
+                <div id="loc63" onclick="changeColor(63)">
+                </div>
+            </td>
+            <td>
+                <div id="loc64" onclick="changeColor(64)">
+                </div>
+            </td>
+            <td>
+                <div id="loc65" onclick="changeColor(65)">
+                </div>
+            </td>
+            <td>
+                <div id="loc66" onclick="changeColor(66)">
+                </div>
+            </td>
+            <td>
+                <div id="loc67" onclick="changeColor(67)">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="loc70" onclick="changeColor(70)">
+                </div>
+            </td>
+            <td>
+                <div id="loc71" onclick="changeColor(71)">
+                </div>
+            </td>
+            <td>
+                <div id="loc72" onclick="changeColor(72)">
+                </div>
+            </td>
+            <td>
+                <div id="loc73" onclick="changeColor(73)">
+                </div>
+            </td>
+            <td>
+                <div id="loc74" onclick="changeColor(74)">
+                </div>
+            </td>
+            <td>
+                <div id="loc75" onclick="changeColor(75)">
+                </div>
+            </td>
+            <td>
+                <div id="loc76" onclick="changeColor(76)">
+                </div>
+            </td>
+            <td>
+                <div id="loc77" onclick="changeColor(77)">
+                </div>
+            </td>
+        </tr>
+		
+        
+		</tbody></table>
+
+</center></body></html>

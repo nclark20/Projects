@@ -1,0 +1,278 @@
+	html {
+	font-family:"Courier New";
+font-size:20px;
+font-weight:bold;
+color: white;
+	}
+	#gameBoard {
+	border-style:solid;
+	border-color:#ff0000 #0000ff;
+	}
+	#winner {
+	font-size: 100px;
+	}
+	#header {
+
+	font-size: 55px;
+	}
+	#inst {
+
+	font-size: 20px;
+	}
+	#loc00{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc01{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc02{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+ 	}
+	#loc03{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+ 	}
+	#loc04{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc05{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc06{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc07{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc10{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+ 	}
+	#loc11{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+ 	}
+	#loc12{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc13{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc14{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc15{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc16{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc17{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc20{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc21{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc22{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc23{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc24{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc25{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc26{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc27{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc30{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc31{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc32{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc33{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc34{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc35{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc36{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc37{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc40{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc41{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc42{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc43{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc44{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc45{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc46{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc47{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc50{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc51{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc52{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc53{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc54{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc55{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc56{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc57{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+ 	#loc60{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc61{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc62{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc63{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc64{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc65{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc66{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc67{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc70{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc71{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc72{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc73{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc74{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc75{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc76{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
+	#loc77{
+	width: 80px;
+	height: 80px; border-radius: 45px; border: 3px dashed yellow;
+	}
